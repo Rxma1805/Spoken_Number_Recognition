@@ -13,7 +13,8 @@ The dataset includes 2850 `.wav` files of 15 different people (male and female) 
 `tensorflow-gpu`, `keras`, `librosa`, `numpy`, ` matplotlib`, `pyaudio`, `h5py`
 
 ## Main Idea
-Draw the spectrogram of each `.wav` file, and save as an image. In this way, the speech recognition problem is transfered into ## an image recognition problem.
+Draw the spectrogram of each `.wav` file, and save as an image. In this way, the speech recognition problem is transfered into 
+## 敲黑板  an image recognition problem.  划重点！
 
 Use CNN to build a classifier for the dataset. The CNN model includes 2 Dense (fully connected) layers and 5 Convolution layers, with Max-Pooling and BatchNormalization layers in it.
 
